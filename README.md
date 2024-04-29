@@ -4,15 +4,17 @@ Welcome to the Ayushman App project!
 
 ## Overview
 
-Ayushman App is a mobile application built using Flutter that aims to provide users with access to healthcare services and information. Whether you're looking for nearby hospitals, scheduling appointments with doctors, or learning about various health conditions, Ayushman has you covered.
+Ayushman App is a mobile application built using Flutter that provides users with access to healthcare services and information, including a chatbot feature for personalized health recommendations. Powered by machine learning, the chatbot suggests Ayurvedic medicines based on the user's input about their symptoms or health condition.
 
 ## Features
 
-- **Find Healthcare Providers**: Search for hospitals, clinics, and doctors in your area.
-- **Appointment Booking**: Schedule appointments with healthcare professionals hassle-free.
+- **Chatbot**: Interact with a chatbot to receive personalized Ayurvedic medicine recommendations based on symptoms or health conditions.
 - **Health Information**: Access reliable information about health conditions, treatments, and wellness tips.
 - **User Profiles**: Create personalized profiles to manage appointments and health records.
-- **Notifications**: Receive reminders for appointments and health-related updates.
+
+## Machine Learning Model
+
+The chatbot functionality in Ayushman App utilizes a machine learning model deployed on Render. The model is based on the k-nearest neighbors algorithm, which suggests Ayurvedic medicines based on symptom similarity.
 
 ## Getting Started
 
